@@ -1,5 +1,6 @@
-# user_system
-User system application built with PHP using OOP and MVC architecture.
+#User System App 
+
+A user system application built with PHP and MySQL using OOP and MVC architecture. 
 
 ##Features
 - User Registration
@@ -21,17 +22,17 @@ The application follows a simple MVC architecture:
 -**Controller** → Handles application logic and user requests
 ##The operations flow 
 
-###Registration 
-Controller verifies if the email exists already in the DB 
-Model executes the insertion query .
-The password is hashed before storing it in the DB
+###Registration
+-Controller verifies if the email exists already in the DB 
+-Model executes the insertion query .
+-The password is hashed before storing it in the DB
 
 ###Login
-Model verify the email, and the password is verified using ‘password_verify()’
-Session variables are created after the successful authentication 
+-Model verify the email, and the password is verified using ‘password_verify()’
+-Session variables are created after the successful authentication 
 
 ###Logout 
-The session is destroyed and the user is redirected to the login page.
+-The session is destroyed and the user is redirected to the login page.
 
 ## Technologies Used
 
@@ -47,3 +48,4 @@ The session is destroyed and the user is redirected to the login page.
 - CSRF protection 
 - Form validation and sanitization
 - Responsive UI improvements
+
