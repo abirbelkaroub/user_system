@@ -15,7 +15,7 @@ A user system application built with PHP and MySQL using OOP and MVC architectur
 Clone the repository
 Create a MySQL database manually and update the database connection settings according to your local environment
 Run the project on localhost using XAMPP or Laragon
-##Project Structure 
+## Project Structure 
 The application follows a simple MVC architecture:
 - **Model** → Handles database operations
 - **View** → Displays the interface to the user 
